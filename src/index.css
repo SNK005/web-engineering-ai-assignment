@@ -1,0 +1,24 @@
+body{margin:0;font-family:Arial,sans-serif}
+.app{min-height:100vh;padding-bottom:30px}
+.app.light{background:#f2f4f8;color:#1b1f2a}
+.app.dark{background:#161a22;color:#e8eaf0}
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:#3b5bdb;color:#fff;padding:14px 24px}
+.header h1{margin:0;font-size:22px}.header p{margin:0}
+main{max-width:800px;margin:20px auto;padding:0 16px}
+button{background:#3b5bdb;color:#fff;border:0;padding:8px 14px;border-radius:6px;cursor:pointer}
+input,select{padding:8px;border-radius:6px;border:1px solid #aab}
+.card-wrapper{background:rgba(127,127,127,.12);padding:16px;border-radius:10px;margin-bottom:16px}
+.card-wrapper h2{margin-top:0;font-size:18px}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
+.metric{background:rgba(127,127,127,.12);padding:12px;border-radius:10px;text-align:center}
+.metric strong{display:block;font-size:24px}
+.task-form,.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.task-form input{flex:1;min-width:150px}
+.task-list,.logs{list-style:none;padding:0;margin:0}
+.task-card{display:flex;align-items:center;gap:10px;padding:10px;border-bottom:1px solid rgba(127,127,127,.3)}
+.task-card .title{flex:1}.task-card.done .title{text-decoration:line-through;opacity:.6}
+.badge{padding:2px 8px;border-radius:10px;font-size:12px;color:#fff}
+.badge.low{background:#2f9e44}.badge.medium{background:#f08c00}.badge.high{background:#e03131}.badge.urgent{background:#862e9c}
+.task-card button{background:#e03131}
+.logs li{padding:4px 0;font-size:14px}.empty{opacity:.7}
+.toast{position:fixed;top:70px;right:20px;background:#222;color:#fff;padding:10px 16px;border-radius:8px;z-index:9}
